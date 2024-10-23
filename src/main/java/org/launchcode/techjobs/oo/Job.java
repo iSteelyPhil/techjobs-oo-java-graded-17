@@ -109,7 +109,7 @@ public class Job {
                 "Employer: " + (!employer.isEmpty() ? employer : "Data not available") + newLine +
                 "Location: " + (!location.isEmpty() ? location : "Data not available") + newLine +
                 "Position Type: " + (!positionType.isEmpty() ? positionType : "Data not available") + newLine +
-                "Core Competency: " + (!coreCompetency.isEmpty() ? coreCompetency : "Data not available") + newLine +
+                "Core Competency: " + (!coreCompetency.isEmpty() ? coreCompetency : "Data not available") +
                 newLine;
     }
 }
