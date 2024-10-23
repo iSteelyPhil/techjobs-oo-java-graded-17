@@ -52,4 +52,7 @@ public class Employer {
         this.value = value;
     }
 
+    public boolean isEmpty() {
+        return value == null || value.isEmpty();
+    }
 }

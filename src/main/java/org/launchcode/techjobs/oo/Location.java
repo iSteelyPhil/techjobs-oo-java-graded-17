@@ -56,4 +56,7 @@ public class Location {
         this.value = value;
     }
 
+    public boolean isEmpty() {
+        return value.isEmpty();
+    }
 }

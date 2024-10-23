@@ -16,6 +16,11 @@ public class PositionType {
         this.value = value;
     }
 
+    @Override
+    public String toString() {
+        return value;
+    }
+
     // TODO: Add a custom toString() method that returns the data stored in 'value'.
 
     // TODO: Add custom equals and hashCode methods. Consider two PositionType objects "equal" when
@@ -35,4 +40,7 @@ public class PositionType {
         this.value = value;
     }
 
+    public boolean isEmpty() {
+        return value == null || value.isEmpty();
+    }
 }
