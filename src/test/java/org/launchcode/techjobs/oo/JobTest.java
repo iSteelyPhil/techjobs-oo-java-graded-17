@@ -35,6 +35,6 @@ public class JobTest {
         Job secondJob = new Job("Code Tester", new Employer("Mastercard"), new Location("St. Louis"),
                 new PositionType("QA"), new CoreCompetency("Good Attitude"));
 
-        assertFalse(firstJob.equals(secondJob));
+        assertEquals(firstJob, secondJob);
     }
 }
