@@ -1,10 +1,6 @@
 package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
-import org.launchcode.techjobs.oo.Employer;
-import org.launchcode.techjobs.oo.Location;
-import org.launchcode.techjobs.oo.PositionType;
-import org.launchcode.techjobs.oo.CoreCompetency;
 
 public class Job {
 
@@ -101,7 +97,6 @@ public class Job {
 
     @Override
     public String toString() {
-        /*StringBuilder newToString = new StringBuilder();*/
         String newLine = System.lineSeparator();
         return newLine +
                 "ID: " + id + newLine +

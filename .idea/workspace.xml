@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="edit 6.2">
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="edit 6.3 reset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.JobTest">
+  <component name="RunManager" selected="Gradle.Tests in 'org.launchcode.techjobs.oo'">
     <configuration name="JobTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,9 +221,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
         <item itemvalue="Gradle.JobTest" />
         <item itemvalue="Gradle.JobTest.testToStringContainsCorrectLabelsAndData" />
-        <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
         <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorExists" />
         <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
       </list>
@@ -295,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729736009400</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="edit 6.3 reset">
+      <option name="closed" value="true" />
+      <created>1729737093616</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729737093617</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,14 +312,15 @@
     <MESSAGE value="edit 6" />
     <MESSAGE value="edit 6.1" />
     <MESSAGE value="edit 6.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit 6.2" />
+    <MESSAGE value="edit 6.3 reset" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit 6.3 reset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java</url>
-          <line>56</line>
+          <line>63</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

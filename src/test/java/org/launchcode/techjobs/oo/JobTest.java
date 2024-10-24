@@ -1,7 +1,5 @@
 package org.launchcode.techjobs.oo;
 
-import com.sun.source.tree.AssertTree;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -39,7 +37,7 @@ public class JobTest {
     @Test
     public void testJobsForEquality(){
         Job firstJob = new Job("Code Tester", new Employer("Mastercard"), new Location("St. Louis"),
-                new PositionType("QA"), new CoreCompetency("Good Attitude"));
+                new PositionType("QA"), new CoreCompetency("JavaScript"));
 
         Job secondJob = new Job("Code Tester", new Employer("Mastercard"), new Location("St. Louis"),
                 new PositionType("QA"), new CoreCompetency("Java"));
