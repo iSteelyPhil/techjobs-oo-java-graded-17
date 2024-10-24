@@ -112,4 +112,8 @@ public class Job {
                 "Core Competency: " + (!coreCompetency.isEmpty() ? coreCompetency : "Data not available") +
                 newLine;
     }
+
+    public static void resetId(){
+        nextId = 1;
+    }
 }

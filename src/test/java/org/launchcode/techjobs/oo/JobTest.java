@@ -2,13 +2,20 @@ package org.launchcode.techjobs.oo;
 
 import com.sun.source.tree.AssertTree;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 
+
 public class JobTest {
     //TODO: Create your unit tests here
+
+    @Before
+    public void resetId(){
+        Job.resetId();
+    }
 
     @Test
     public void testSettingJobId(){
@@ -58,7 +65,10 @@ public class JobTest {
                 new PositionType("QA"), new CoreCompetency("Java"));
 
         String test = testJob.toString();
+        String expectedResult = "ID: 1";
+        String trueResult = "ID: " + testJob.getId();
 
+        assertEquals("ID should be 1", expectedResult, trueResult);
         assertTrue("ID should be 1", test.contains("ID: " + testJob.getId()));
         assertTrue("Name should be Code Tester", test.contains("Name: Code Tester"));
         assertTrue("Employer should be Mastercard", test.contains("Employer: Mastercard"));
