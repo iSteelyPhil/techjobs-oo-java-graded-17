@@ -75,20 +75,19 @@ public class JobTest {
         assertTrue("Core Competency should be in Java", test.contains("Core Competency: Java"));
     }
 
+
     @Test
-    public void testToStringHandlesEmptyField(){
+    public void testToStringHandlesEmptyField() {
         Job testJobEmpty = new Job("", new Employer(""), new Location(""),
-                new PositionType(null), new CoreCompetency(null));
-     
+                new PositionType(""), new CoreCompetency(""));
 
         String test = testJobEmpty.toString();
-
         assertTrue("Name should be unavailable", test.contains("Name: Data not available"));
         assertTrue("Employer should be unavailable", test.contains("Employer: Data not available"));
         assertTrue("Location should be unavailable", test.contains("Location: Data not available"));
         assertTrue("Position Type should be unavailable", test.contains("Position Type: Data not available"));
         assertTrue("Core Competency should be unavailable", test.contains("Core Competency: Data not available"));
-
     }
+
 
 }

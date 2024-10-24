@@ -97,6 +97,7 @@ public class Job {
 
     @Override
     public String toString() {
+        /*StringBuilder newToString = new StringBuilder();*/
         String newLine = System.lineSeparator();
         return newLine +
                 "ID: " + id + newLine +
@@ -111,4 +112,6 @@ public class Job {
     public static void resetId(){
         nextId = 1;
     }
+
+    //coment for github commit
 }
