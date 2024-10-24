@@ -80,5 +80,5 @@ public class JobTest {
         assertTrue("Position Type should be unavailable", test.contains("Position Type: Data not available"));
         assertTrue("Core Competency should be unavailable", test.contains("Core Competency: Data not available"));
     }
-
+//comment for github
 }
