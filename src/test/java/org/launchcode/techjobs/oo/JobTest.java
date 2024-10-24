@@ -26,7 +26,7 @@ public class JobTest {
     @Test
     public void testJobConstructorSetsAllFields(){
         Job listing = new Job("Product tester", new Employer("ACME"), new Location("Desert"),
-                new PositionType("Quality control"), new CoreCompetency("Java"));
+                new PositionType("Quality control"), new CoreCompetency("Persistence"));
 
         assertEquals("Product tester", listing.getName());
 
@@ -79,6 +79,7 @@ public class JobTest {
     public void testToStringHandlesEmptyField(){
         Job testJobEmpty = new Job("", new Employer(""), new Location(""),
                 new PositionType(null), new CoreCompetency(null));
+     
 
         String test = testJobEmpty.toString();
 
@@ -87,6 +88,7 @@ public class JobTest {
         assertTrue("Location should be unavailable", test.contains("Location: Data not available"));
         assertTrue("Position Type should be unavailable", test.contains("Position Type: Data not available"));
         assertTrue("Core Competency should be unavailable", test.contains("Core Competency: Data not available"));
+
     }
-//comment for github
+
 }
